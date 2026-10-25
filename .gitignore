@@ -1,0 +1,19 @@
+.build/
+Sip.app/
+AppIcon.iconset/
+.DS_Store
+
+# Keys and private settings stay on this Mac.
+.env
+.env.*
+*.pem
+*.p12
+*.p8
+*.jks
+*.keystore
+android/key.properties
+
+# Xcode's per-user and package workspace files.
+.swiftpm/
+xcuserdata/
+*.xcuserstate

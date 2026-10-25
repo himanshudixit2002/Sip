@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>            <string>Sip</string>
+    <key>CFBundleDisplayName</key>     <string>Sip</string>
+    <key>CFBundleExecutable</key>      <string>Sip</string>
+    <key>CFBundleIdentifier</key>      <string>com.himanshudixit.sip</string>
+    <key>CFBundlePackageType</key>     <string>APPL</string>
+    <key>CFBundleShortVersionString</key> <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleVersion</key>         <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>CFBundleIconFile</key>        <string>AppIcon</string>
+    <key>LSApplicationCategoryType</key> <string>public.app-category.healthcare-fitness</string>
+    <key>LSMinimumSystemVersion</key>  <string>14.2</string>
+    <key>NSHighResolutionCapable</key> <true/>
+    <key>LSUIElement</key>             <true/>
+    <key>NSHumanReadableCopyright</key> <string>Designed by Himanshu Dixit.</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>    <string>com.himanshudixit.sip</string>
+            <key>CFBundleURLSchemes</key> <array><string>sip</string></array>
+        </dict>
+    </array>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>Sip reads today's events on this Mac to hold reminders during meetings, plan drinks around them and spot workouts. Nothing is stored or sent anywhere.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Sip reads today's events to time reminders around your meetings and workouts.</string>
+</dict>
+</plist>
